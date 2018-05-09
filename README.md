@@ -1,1 +1,3 @@
 # ClassRoomDemos
+These projects are the classroom demonstartions for the NAIT course CPSC
+The project were created ....
