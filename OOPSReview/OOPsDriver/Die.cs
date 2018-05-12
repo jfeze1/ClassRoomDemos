@@ -82,6 +82,41 @@ namespace OOPsDriver
                     _Color = value;
                 }
             }
+        }//eop (End Of Property)
+
+
+
+        //CONSTRUCTORS
+        //Costructors are NOT directly called byt the outside user
+        //Constructors are called indirectly when the outside user creates an instance of the class
+        //To create an instance of the class, the outside user will declare --> class variablename = new class();
+        //it is the "new" that class the constructor
+
+        //You may or may not a constructor for your class
+        //If you do NOT code a constructor for your class then a default system constructor is executed
+        //This default system constructor initializes your local data membersa to their default C# values
+
+        //If you do code a constructor for your class  then YOU are responsible for all/any constructor in the class
+
+        //"Default" constructor
+        //This constructor is similar to the system constructor
+        //  this constructor will be called for --> new classname();
+
+        public Die()
+        {
+
+        }
+
+        //"Greedy" constructor
+        //This constructor usually recieves a list of parameter, one for each data member in the class
+        //The constructor takes the parameter values and assigns the value to the appropriate data member
+        //This constructor would be called for --> new classname(value1, value2,...)
+        //YOU CANNOT code the greedy constructor without the Default constructor
+
+        public Die(int sides, string color)
+        {
+            Sides = sides; //the set{} of the property Sides is used
+            Color = color;
         }
     }
 }
