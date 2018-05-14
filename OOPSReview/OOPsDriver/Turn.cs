@@ -11,5 +11,6 @@ namespace OOPsDriver
         public int Player1DiceValue { get; set; }
         public int Player2DiceValue { get; set; }
         public string TurnWinner { get; set; }
+    
     }
 }
