@@ -53,22 +53,87 @@ namespace OOPsDriver
                             //logic can be done actually inside the case
                             //one does not have to always call a method
 
-                            Console.WriteLine("You selected B");
+                            //Roll the dice for each player
+                            //The dot operator is used with your instance to acess a property or a behaviour
+                            Player1Dice.Roll();
+                            Player2Dice.Roll();
+
+                            //Record the results of the roll for this turn
+                            //we need to create a new instance of the Turn class
+                            Turn aturn = new Turn();
+
+                            //assign the facevalue of each dice to the Turn instance
+
+                            //         set                      get
+                            aturn.Player1DiceValue = Player1Dice.FaceValue;
+                            aturn.Player2DiceValue = Player2Dice.FaceValue;
+
+                            //Determine your battle results
+                            //It does not matter in this logic wether we use the values from aturn or the Die variables
+                            if (aturn.Player1DiceValue > Player2Dice.FaceValue)
+                            {
+                                aturn.TurnWinner = "Player1";
+                            }
+                            else if (aturn.Player2DiceValue > aturn.Player1DiceValue)
+                            {
+                                aturn.TurnWinner = "Player2";
+                            }
+                            else
+                            {
+                                aturn.TurnWinner = "Draw";
+                            }
+                            //Display the dresults to the user
+                            Console.WriteLine("results: Player1 rolled {0} Player2 rolled {1} Winner: {2} ", aturn.Player1DiceValue, aturn.Player2DiceValue, aturn.TurnWinner);
+
+                            //Add the turn instance to the List<T>
+                            gameTurn.Add(aturn);
                             break;
                         }
                     case "C":
                         {
-                            Console.WriteLine("You selected C");
+                            //Display the current standing in the game
+                            //foreach loop
+                            //This loop will start processing your collection from the first instance to the last instance moving automatically to the next instance
+
+                            //C# will strongly datatype variable at compile time when the datatype is used in declaring the variable
+                            //C# also has a datatype called "var".
+                            //var datatype is set at execution time but is still strongly datatype on its FIRST execution
+                            foreach(var thisTurn in gameTurn)
+                            {
+                                Console.WriteLine("results: Player1 rolled {0} Player2 rolled {1} Winner: {2} ", thisTurn.Player1DiceValue, thisTurn.Player2DiceValue, thisTurn.TurnWinner);
+                            }
+                            Console.WriteLine("\n");
                             break;
                         }
                     case "X":
                         {
+
+                            int player1wins = 0, player2wins = 0, draws = 0;
                             Console.WriteLine("Thank you for playing. Come again.");
+
+                            foreach(var wins in gameTurn)
+                            {
+                                if(wins.Player1DiceValue > wins.Player2DiceValue)
+                                {
+                                    player1wins++;
+                                }
+                                else if (wins.Player2DiceValue > wins.Player1DiceValue)
+                                {
+                                    player2wins++;
+                                }
+                                else
+                                {
+                                    draws++;
+                                }
+                            }
+
+                            Console.WriteLine("Player1 has: {0} \n Player2 has: {1} \n Draws: {2}", player1wins, player1wins, draws);
                             break;
                         }
                     default:
                         {
                             Console.WriteLine("Invalid menu choice. Try again.");
+                           
                             break;
                         }
 
