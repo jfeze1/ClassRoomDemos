@@ -109,11 +109,28 @@ namespace OOPsDriver
                         {
 
                             int player1wins = 0, player2wins = 0, draws = 0;
-                            Console.WriteLine("Thank you for playing. Come again.");
+                            int[] counts = new int[] { 0, 0, 0 };
 
-                            foreach(var wins in gameTurn)
+                            foreach (var aturn in gameTurn)
                             {
-                                if(wins.Player1DiceValue > wins.Player2DiceValue)
+                                if (aturn.TurnWinner.Equals("Player1"))
+                                {
+                                    counts[0]++;
+                                }
+                                else if (aturn.TurnWinner.Equals("Player2"))
+                                {
+                                    counts[1]++;
+                                }
+                                else
+                                {
+                                    counts[2]++;
+                                }
+                            }
+
+
+                            foreach (var wins in gameTurn)
+                            {
+                                if (wins.Player1DiceValue > wins.Player2DiceValue)
                                 {
                                     player1wins++;
                                 }
@@ -127,7 +144,9 @@ namespace OOPsDriver
                                 }
                             }
 
-                            Console.WriteLine("Player1 has: {0} \n Player2 has: {1} \n Draws: {2}", player1wins, player1wins, draws);
+                            Console.WriteLine("Player 1 has: {0} \nPlayer 2 has: {1} \nDraws: {2}\n", player1wins, player1wins, draws);
+                            Console.WriteLine("Player 1 wins {0}\nPlayer 2 wins {1}\nDraws {2}", counts[0], counts[1], counts[2]);
+                            Console.WriteLine("Thank you for playing. Come again.");
                             break;
                         }
                     default:
