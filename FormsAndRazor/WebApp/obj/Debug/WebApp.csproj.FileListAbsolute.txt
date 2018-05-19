@@ -64,8 +64,11 @@ C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\bin\System.W
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\bin\System.Web.WebPages.Deployment.xml
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\bin\System.Web.WebPages.Razor.xml
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\obj\Debug\WebApp.csproj.CopyComplete
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\obj\Debug\WebApp.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\obj\Debug\WebApp.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\bin\WebMatrix.Data.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\bin\WebMatrix.WebData.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\bin\WebMatrix.Data.xml
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\bin\WebMatrix.WebData.xml

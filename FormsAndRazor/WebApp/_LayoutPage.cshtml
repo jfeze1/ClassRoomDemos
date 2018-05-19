@@ -4,15 +4,57 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@Page.Title</title>
+
+    <!--These packages have to be brought in this paticular order-->
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link href="~/Content/myStyleSheet.css" rel="stylesheet" />
 </head>
 <body>
-    <div>
-        <!--RenderSection defines a new section in the body-->
-        @RenderSection("banner", required: true)
-        @RenderBody()
-        <br/>
-        <hr style="line-height:5px"/>
-        @RenderSection("footer", required:false)
-    </div>
+    <div class="container-fluid">
+        <!-- this will be the menu area -->
+        <div class="navbar navbar-default navbar-fixed-top">
+            <!-- this will be the title on the menu (brand)-->
+            <div class="navbar-header">
+                <a class="navbar-brand" style="font-size:x-large">
+                        <strong>Razor Samples</strong>
+                </a>
+             </div>
+            <!-- this will be the menu root items-->
+            <ul class="nav navbar-nav">
+                <!-- this will be a menu item -->
+                <li><a href="@Href(" ~/default.cshtml")">Home</a></li>
+
+                <!--cREATING A dropdown menu-->
+                <li class="dropdown">
+                    <!--this will be the menu root item -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Controls
+                        <b class="caret"></b></a>
+                    <ul class=" dropdown-menu">
+                        <li><a href="@Href(" ~/controls/textboxes.cshtml")">TextBox</a></li>
+                        <li><a href="@Href("~/controls/radiobuttonlist.cshtml")">Radio Button List</a></li>
+                        <li><a href="@Href("~/controls/dropdownlist.cshtml")">Dropdown List</a></li>
+                        <li><a href="@Href("~/controls/checkboxes.cshtml")">Checkboxes List</a></li>
+
+                    </ul>
+                </li>
+               
+
+            </ul>
+         </div>
+                <br /><br />
+                </div>
+        
+                <div class="jumbotron">
+                    <!--RenderSection defines a new section in the body-->
+                    @RenderSection("banner", required: true)
+                </div>
+
+                @RenderBody()
+                <br />
+                <hr style="line-height:5px" />
+                @RenderSection("footer", required: false)
+            </div>
 </body>
 </html>
