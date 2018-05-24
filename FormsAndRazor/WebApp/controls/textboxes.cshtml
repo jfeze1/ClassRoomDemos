@@ -1,10 +1,63 @@
 ﻿@{
     Page.Title = "TextBoxes";
     Layout = "~/_LayoutPage.cshtml";
+
+    <!--Get the data from the form-->
+    //the syntax is typically C#
+    //acces to an input control will be by the name parameter on the control
+    //Since we are using C#, that means things are case-sensitive
+    //To reference the control use the object Request and the property reference .Form["xxxx"] where xxxx is the value of the name parameter
+    //Data that is coming from the form is of datatype string
+    //Place your incoming data into a variable for access by this page
+    var controlvariablename = Request.Form["controlname"];
+    var whichbutton = Request.Form["formbutton"];
 }
 
 
 @section banner
-    {
+{
     <h1>TextBoxes</h1>
 }
+    <div>
+        <!-- one can use the post flag to determine your logic the first time the page is referenced the value of the flag is false
+    IF you remin on this page, the value of the flag will be true-->
+
+
+        @if (IsPost)
+        {
+            <!--To access a local variable within your html text you will place the 'at' symbple (shift 2) in front the variable name-->
+
+
+            if (string.IsNullOrEmpty(controlvariablename))
+            {
+                <p> You didn't enter any data</p>
+            }
+            else
+            {
+                if (whichbutton.Equals("Data"))
+                {
+                    <p> You entered &gt; @controlvariablename &lt;</p>
+                }
+                else
+                {
+                    <p> You entered &gt; @controlvariablename &lt; which has a length of @controlvariablename.Length</p>
+                }
+
+            }
+        }
+
+
+
+
+        <!--By default we don't put anything in "action"-->
+        <!--The get method put literal text in the url, however, the post method doesn't-->
+        <form id="theForm" action="" method="post">
+            <!--the "for" parameter link the label to the form-->
+            <label for="forcontrolname">Field Label:</label>&nbsp;&nbsp;
+            <!--the value property store the last value entered in the textbox-->
+            <!--Placeholder is the Hint-->
+            <input type="text" id="controlname" name="controlname" value="@controlvariablename" placeholder="enter your name" /><br />
+            <button type="submit" id="formbutton" name="formbutton" class="btn btn-primary" value="Data">Show data</button>
+            <button type="submit" id="formbutton" name="formbutton" class="btn" value="Length">Show data length</button>
+        </form>
+    </div>
