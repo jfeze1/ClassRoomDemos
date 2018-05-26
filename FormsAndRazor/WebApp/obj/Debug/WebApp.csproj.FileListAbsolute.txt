@@ -72,3 +72,4 @@ C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\obj\Debug\We
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\obj\Debug\WebApp.csproj.CopyComplete
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\obj\Debug\WebApp.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\obj\Debug\WebApp.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\FormsAndRazor\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache

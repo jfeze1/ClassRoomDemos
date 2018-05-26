@@ -1,4 +1,5 @@
 ﻿@{
+    Page.Title = "RadioButton";
     Layout = "~/_LayoutPage.cshtml";
 }
 
@@ -7,3 +8,74 @@
     {
     <h1>RadioButtonList</h1>
 }
+
+@if (IsPost)
+{
+    var languageChoice = Request.Form["LanguageGroup"];
+    var scriptChoice = Request.Form["ScriptGroup"];
+    if (languageChoice.IsEmpty() || scriptChoice.IsEmpty())
+    {
+        //The user needs to choose one item from both lists
+        //if not send an error message to the user
+        <p>
+            <span style="color:firebrick">Make a selection from both choices</span>
+        </p>
+    }
+    else
+    {
+        //If the user chooses C# put output a positive message otherwise a negative message
+        //if the user chooses Razor put output a positive message otherwise a negative message
+        if (languageChoice.Equals("C#", StringComparison.OrdinalIgnoreCase))
+        {
+        <P>
+            <span style = "color:forestgreen" > You will greatly enjoy CPSC1517 course </span >
+        </P>
+        }
+        else
+        {
+           <P>
+               <span style="color:firebrick"> unfortunately we use C#</span>
+           </P> 
+        }
+        if (scriptChoice.Equals("RZ", StringComparison.OrdinalIgnoreCase))
+        {
+           <P>
+               <span style="color:forestgreen">You will greatly enjoy CPSC1517 course</span>
+           </P>
+            
+        }
+        else
+        {
+           <p>
+               <span style="color:firebrick">unfortunately we use Razor</span>
+           </p>
+           
+        }
+    }
+}
+
+<form id="theForm" action="" method="post">
+    <div class="row">
+        <div class="col-sm-offset-1">
+            <label id="forLanguageGroup">Select your favorite programming language</label>
+            <br />
+            <input type="radio" name="LanguageGroup" value="C#" />C#<br />
+            <input type="radio" name="LanguageGroup" value="VB" />Visual Basic<br />
+            <input type="radio" name="LanguageGroup" value="ObC" />Objective C<br />
+            <input type="radio" name="LanguageGroup" value="CO" />COBOL<br />
+            <input type="radio" name="LanguageGroup" value="F4" />Fortran<br />
+            <input type="radio" name="LanguageGroup" value="PAS" />Pascal<br />
+            <br />
+            <label id="forScriptGroup">Select your favorite scripting code</label>
+            <br />
+            <input type="radio" name="ScriptGroup" value="JS" />Javascript<br />
+            <input type="radio" name="ScriptGroup" value="RZ" />Razor<br />
+            <input type="radio" name="ScriptGroup" value="PHP" />PHP<br />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-offset-3">
+            <button type="submit" id="formbutton" name="formbutton" class="btn" value="Submit">Sbumit</button>
+        </div>
+    </div>
+</form>
