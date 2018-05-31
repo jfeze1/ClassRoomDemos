@@ -1,4 +1,5 @@
 ﻿@{
+    Page.title = "Checkboxes";
     Layout = "~/_LayoutPage.cshtml";
 }
 
@@ -7,3 +8,54 @@
     {
     <h1>CheckBoxes</h1>
 }
+
+<div>
+    @if(IsPost)
+    {
+        //the variable will contain a list of all the checkboxes that were selected by the user
+        var choices = Request.Form["checkboxgroup"];
+
+        //validate that at least one checkbox was turn on
+        if(choices.IsEmpty())
+        {
+            <p><span style="color:firebrick">Make a selection from the list of platform choices</span></p>
+        }
+        else
+        {
+            //Set the delimiter as a character for use in dividing the set of values that will be returned from the set of checkboxes
+            //Characters are define with single quote
+            char[] delimiter = { ',' };
+
+            //us the .Split(delimiter) method to split up the return string
+            //This method return the string arrya that contain the substrings in the string instance that 
+            //are delimited by elements of a string or unocode character array
+
+            //To loop use the foreach as it controls the number of passes and will terminate when there is no more  data to seperate
+
+            <P>
+                I see you like to use the following platforms:
+                <ul>
+                    @foreach(var platform in choices.Split(delimiter))
+                    {
+                        <li>@platform</li>
+                    }
+                </ul>
+            </P>
+        }
+    }
+    <form id=" = theForm" action="" method="post">
+        <div class="col-md-offset-1">
+            <label id="forCheckboxGroup">Select your favorite gaming platform</label><br />
+            <input type="checkbox" name="checkboxgroup" value="PS4" />&nbsp;PS4<br />
+            <input type="checkbox" name="checkboxgroup" value="PC" />&nbsp;PC<br />
+            <input type="checkbox" name="checkboxgroup" value="XBox One" />&nbsp;XBox One<br />
+            <input type="checkbox" name="checkboxgroup" value="Nintendo 3DS" />&nbsp;Nintendo 3DS<br />
+            <input type="checkbox" name="checkboxgroup" value="Cell " />&nbsp;Cell Phone<br />
+            <input type="checkbox" name="checkboxgroup" value="iPad" />&nbsp;iPad<br />
+            <input type="checkbox" name="checkboxgroup" value="Wii" />&nbsp;Wii<br />
+            <br/>
+            <button type="submit" name="formButton" value="submit"class="btn btn-primary">Submit</button>
+
+        </div>
+    </form>
+</div>
