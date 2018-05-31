@@ -59,11 +59,11 @@
         <!--RenderSection defines a new section in the body-->
         @RenderSection("banner", required: true)
     </div>
-
-    @RenderBody()
-    <br />
-    <hr style="line-height:5px" />
-    @RenderSection("footer", required: false)
+    <div>
+        @RenderBody()
+        <br />
+        <hr style="line-height:5px" />
+        @RenderSection("footer", required: false)
     </div>
 </body>
 </html>
