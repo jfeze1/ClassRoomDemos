@@ -116,13 +116,17 @@
     <Content Include="controls\checkboxes.cshtml" />
     <Content Include="controls\dropdownlist.cshtml" />
     <Content Include="DBPages\DBSingleQuery.cshtml" />
+    <Content Include="MultiRecordQuery.cshtml" />
+    <Content Include="DBPages\WebGridPage.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Web.config" />
-    <Content Include="WebConnectionString.config" />
+    <Content Include="WebConnectionString.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
