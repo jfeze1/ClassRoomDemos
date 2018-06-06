@@ -118,6 +118,7 @@
     <Content Include="DBPages\DBSingleQuery.cshtml" />
     <Content Include="MultiRecordQuery.cshtml" />
     <Content Include="DBPages\WebGridPage.cshtml" />
+    <Content Include="DBPages\WebGridDestination.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -127,6 +128,7 @@
     <Content Include="WebConnectionString.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="_Menu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
