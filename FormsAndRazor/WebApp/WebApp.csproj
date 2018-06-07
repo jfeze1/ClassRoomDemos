@@ -116,9 +116,10 @@
     <Content Include="controls\checkboxes.cshtml" />
     <Content Include="controls\dropdownlist.cshtml" />
     <Content Include="DBPages\DBSingleQuery.cshtml" />
-    <Content Include="MultiRecordQuery.cshtml" />
+    <Content Include="DBPages\MultiRecordQuery.cshtml" />
     <Content Include="DBPages\WebGridPage.cshtml" />
     <Content Include="DBPages\WebGridDestination.cshtml" />
+    <Content Include="DBPages\Insert.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
