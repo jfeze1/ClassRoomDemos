@@ -56,7 +56,15 @@
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                     </ul>--%>
                     <asp:Menu ID="Menu1" runat="server"
-                         DataSourceID="SiteMapDataNav"></asp:Menu>
+                         DataSourceID="SiteMapDataNav"
+                         Orientation="Horizontal"
+                         StaticDisplayLevels="1"
+                         StaticMenuStyle-CssClass="nav navbar-nav"
+                         StaticSelectedStyle-CssClass="active"
+                         DynamicMenuStyle-CssClass="dropdown-menu"
+                         IncludeStyleBlock="false"
+                         EnableTheming="false"
+                         EnableViewState="false"></asp:Menu>
                     <asp:SiteMapDataSource ID="SiteMapDataNav" runat="server" 
                         ShowStartingNode="false" />
                 </div>
