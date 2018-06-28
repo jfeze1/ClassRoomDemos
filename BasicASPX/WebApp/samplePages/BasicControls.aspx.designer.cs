@@ -67,22 +67,13 @@ namespace WebApp.samplePages {
         protected global::System.Web.UI.WebControls.CheckBox CheckBoxChoice;
         
         /// <summary>
-        /// Label2 control.
+        /// DisplayDataReadOnly control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
-        
-        /// <summary>
-        /// Label3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label DisplayDataReadOnly;
         
         /// <summary>
         /// Label4 control.

@@ -1,0 +1,38 @@
+﻿/*CSS_Grid form formatting
+    grid specifies that CSS-GRID is used
+    "gap": distance between row/column
+    template-column: allows one to specify the phiysical size of each column in the grid
+*/
+.grid-form{
+    display:grid;
+    grid-row-gap: 7px;
+    grid-template-columns: max-content 15px auto;
+    grid-column-gap: 10px;
+}
+/* ">*" means everything within the grid-form
+    the grid-column has 2 parameter values column to start in / span 2 more columns
+    (in total, the row will have 3 columns)
+*/
+.grid-form > *{
+    grid-column: 2 / span 2;
+}
+
+/*Refining items within gri-form using specific html tag names.
+    Any labelk tag within the grid-form will start in column 1
+*/
+.grid-form > label{
+    grid-column: 1;
+    text-align:right;
+}
+
+.grid-form > h3{
+    grid-column:1 / span 3;
+}
+
+.grid-form > input[type=checkbox] {
+    grid-column: 2;
+}
+.grid-form > input[type=checkbox] + label {
+    grid-column: 3;
+    text-align: left;
+}

@@ -19,7 +19,7 @@
             <td align="right">TextBox:</td>
             <td>
                 <asp:TextBox ID="TextBoxNumberChoice" runat="server"></asp:TextBox>
-                <asp:Button ID="SubmitButtonChoice" runat="server" Text="Submit Choice" CssClass="btn btn-primary"/> &nbsp; (Enter a number from 1 to 4)
+                <asp:Button ID="SubmitButtonChoice" runat="server" Text="Submit Choice" CssClass="btn btn-primary" OnClick="SubmitButtonChoice_Click"/> &nbsp; (Enter a number from 1 to 4)
             </td>
         </tr>
         <tr>
@@ -29,8 +29,8 @@
             <td><asp:RadioButtonList ID="RadioButtonListListChoice" runat="server"
                 RepeatDirection="Horizontal" RepeatLayout="Flow">
                 <asp:ListItem Value="1">COM1008&nbsp;</asp:ListItem>
-                <asp:ListItem Value="2">CPSC1517&nbsp;</asp:ListItem>
-                <asp:ListItem Value="3">DMIT1508&nbsp;</asp:ListItem>
+                <asp:ListItem Value="3">CPSC1517&nbsp;</asp:ListItem>
+                <asp:ListItem Value="2">DMIT1508&nbsp;</asp:ListItem>
                 <asp:ListItem Value="4">DMIT2018&nbsp;</asp:ListItem>
                 </asp:RadioButtonList></td>
             
@@ -40,19 +40,16 @@
             <td><asp:CheckBox ID="CheckBoxChoice" runat="server" /></td>
         </tr>
         <tr>
-            <td align="right"><asp:Label ID="Label2" runat="server" Text="Display Label"></asp:Label></td>
+            <td align="right"><asp:Label ID="DisplayDataReadOnly" runat="server" Text="Display Label"></asp:Label></td>
+
             
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td align="right"><asp:Label ID="Label3" runat="server" Text="DisplayDataReadOnly"></asp:Label></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td align="right"><asp:Label ID="Label4" runat="server" Text="View Collection"></asp:Label></td>
             <td>
                 <asp:DropDownList ID="CollectionList" runat="server"></asp:DropDownList>
-                <asp:LinkButton ID="LinkButtonSubmitChoice" runat="server">Submit Collection Choice</asp:LinkButton>
+                <asp:LinkButton ID="LinkButtonSubmitChoice" runat="server" OnClick="LinkButtonSubmitChoice_Click">Submit Collection Choice</asp:LinkButton>
             </td>
             
         </tr>
