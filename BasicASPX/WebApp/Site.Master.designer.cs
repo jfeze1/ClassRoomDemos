@@ -22,13 +22,13 @@ namespace WebApp {
         protected global::System.Web.UI.WebControls.Menu Menu1;
         
         /// <summary>
-        /// SiteMapDataNav control.
+        /// SiteMapNav control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SiteMapDataSource SiteMapDataNav;
+        protected global::System.Web.UI.WebControls.SiteMapDataSource SiteMapNav;
         
         /// <summary>
         /// MainContent control.

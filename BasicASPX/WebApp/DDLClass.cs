@@ -13,10 +13,10 @@ namespace WebApp
         {
 
         }
-        public DDLClass(int valueField, string displayField)
+        public DDLClass( int valuefield, string displayfield)
         {
-            ValueField = valueField;
-            DisplayField = displayField;
+            ValueField = valuefield;
+            DisplayField = displayfield;
         }
     }
 }

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApp.samplePages
+namespace WebApp.SamplePages
 {
 
 

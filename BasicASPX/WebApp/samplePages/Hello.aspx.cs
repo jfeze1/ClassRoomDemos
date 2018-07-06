@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebApp.samplePages
+namespace WebApp.SamplePages
 {
     public partial class Hello : System.Web.UI.Page
     {
