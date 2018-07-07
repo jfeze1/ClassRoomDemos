@@ -53,7 +53,28 @@
          ControlToValidate="EmailAddress" SetFocusOnError="true"
          ForeColor="Firebrick" Display="None"
          ValidationExpression="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$"></asp:RegularExpressionValidator>
+    <asp:CompareValidator ID="CompareCheckAnswer" runat="server" ErrorMessage="Skill testing answer incorrect" 
+        ControlToValidate="CheckAnswer" SetFocusOnError="true" ForeColor="Firebrick" Display="None" Operator="Equal" 
+        ValueToCompare="15" Type="Integer"></asp:CompareValidator>
 
+
+    <%-- MinimumValue: Lowest inclusive value of the range
+        MaximumValue: Hihghest inclusive value of the range
+        Type Specifies the data type of the value
+<asp:RangeValidator ID="RangeSomeField" runat="server" ErrorMessage="some field value is out of range" ControlToValidate="SomeField" SetFocusOnError="true" ForeColor="Firebrick" Display="None" MinimumValue="0.0" MaximumValue="100.0" Type="Double"></asp:RangeValidator>--%>
+
+
+<%--Treat the compareValidator like an if statement.
+    Version 1: DataType check, use to ensure you have the correct datatype regardless of value.
+    Version 2: constant check, use to ensure that the value enteres is the expect value
+    Version 3: check against another field, use to confirm the value of field A compares to value of field B
+
+
+    <asp:CompareValidator ID="CompareVersion1" runat="server" ErrorMessage="Version 1 is wrong data type" ControlToValidate="version 1" SetFocusOnError="true" ForeColor="Firebrick" Display="None" Operator="DataTypeCheck" Type="Date"></asp:CompareValidator>
+    <asp:CompareValidator ID="CompareValidator2" runat="server" ErrorMessage="Version 2 is incorrect" ControlToValidate="version 2" SetFocusOnError="true" ForeColor="Firebrick" Display="None" Operator="GreaterThan" ValueToCompare="0.00" Type="Currency"></asp:CompareValidator>
+    <asp:CompareValidator ID="CompareValidator3" runat="server" ErrorMessage="Version 3 is not confirm" ControlToValidate="version 3" SetFocusOnError="true" ForeColor="Firebrick" Display="None" Operator="Equal" ControlToCompare="AnotherField" Type="String"></asp:CompareValidator>--%>
+   
+    
     <%-- validation summary to display the validation errors --%>
    <div class="row">
     <asp:ValidationSummary ID="ValidationSummary1" runat="server"
@@ -106,7 +127,7 @@
                 AssociatedControlID="EmailAddress"></asp:Label>
         <asp:TextBox ID="EmailAddress" runat="server" 
             ToolTip="Enter your email address"
-                TextMode="Email"></asp:TextBox> 
+                ></asp:TextBox> 
 
         <asp:Label ID="Label9" runat="server" Text="Agree to Terms"
             AssociatedControlID="Terms"></asp:Label>
@@ -129,6 +150,8 @@
                
         <asp:Label ID="Message" runat="server" Text="bob" ></asp:Label>
 
+
+        <asp:GridView ID="ContestEntries" runat="server"></asp:GridView>
     </div>  
     
 </asp:Content>
