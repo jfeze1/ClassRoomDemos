@@ -1,3 +1,4 @@
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Newtonsoft.Json.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\ApplicationInsights.config
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\WebApp.dll.config
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\WebApp.dll
@@ -18,7 +19,6 @@ C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.Co
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.ScriptManager.MSAjax.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.ScriptManager.WebForms.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Newtonsoft.Json.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\System.Web.Optimization.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\WebGrease.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
@@ -31,6 +31,7 @@ C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.AI
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.AI.Web.xml
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\obj\Debug\WebApp.csproj.CopyComplete
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\obj\Debug\WebApp.dll
