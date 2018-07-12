@@ -1,0 +1,9 @@
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\NorthwindSystem\bin\Debug\NorthwindSystem.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\NorthwindSystem\bin\Debug\NorthwindSystem.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\NorthwindSystem\bin\Debug\Northwind.Data.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\NorthwindSystem\bin\Debug\Northwind.Data.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\NorthwindSystem\obj\Debug\NorthwindSystem.csprojAssemblyReference.cache
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\NorthwindSystem\obj\Debug\NorthwindSystem.csproj.CoreCompileInputs.cache
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\NorthwindSystem\obj\Debug\NorthwindSystem.csproj.CopyComplete
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\NorthwindSystem\obj\Debug\NorthwindSystem.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\NorthwindSystem\obj\Debug\NorthwindSystem.pdb
