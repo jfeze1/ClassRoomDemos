@@ -46,7 +46,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand" runat="server" href="~/">HTPS– Client Server Setup</a>
                 </div>
                 <div class="navbar-collapse collapse">
                    <%-- <ul class="nav navbar-nav">
@@ -55,8 +55,8 @@
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                     </ul>--%>
                     <asp:Menu ID="Menu1" runat="server"
-                        DataSourceID="SiteMapNav"
-                        Orientation="Horizontal"
+                         DataSourceID="SiteMapNav"
+                         Orientation="Horizontal"
                          StaticDisplayLevels="1"
                          StaticMenuStyle-CssClass="nav navbar-nav"
                          StaticSelectedStyle-CssClass="active"
