@@ -1,0 +1,5 @@
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze.Data\bin\Debug\HTPSSystem.RFeze.Data.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze.Data\bin\Debug\HTPSSystem.RFeze.Data.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze.Data\obj\Debug\HTPSSystem.RFeze.Data.csproj.CoreCompileInputs.cache
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze.Data\obj\Debug\HTPSSystem.RFeze.Data.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze.Data\obj\Debug\HTPSSystem.RFeze.Data.pdb

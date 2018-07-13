@@ -1,0 +1,9 @@
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze\bin\Debug\HTPSSystem.RFeze.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze\bin\Debug\HTPSSystem.RFeze.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze\bin\Debug\HTPSSystem.RFeze.Data.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze\bin\Debug\HTPSSystem.RFeze.Data.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze\obj\Debug\HTPSSystem.RFeze.csprojAssemblyReference.cache
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze\obj\Debug\HTPSSystem.RFeze.csproj.CoreCompileInputs.cache
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze\obj\Debug\HTPSSystem.RFeze.csproj.CopyComplete
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze\obj\Debug\HTPSSystem.RFeze.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\HT Product Services\HTPSSystem.RFeze\obj\Debug\HTPSSystem.RFeze.pdb

@@ -31,7 +31,6 @@ C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.AI
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\bin\Microsoft.AI.Web.xml
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\obj\Debug\WebApp.csproj.CopyComplete
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\BasicASPX\WebApp\obj\Debug\WebApp.dll
