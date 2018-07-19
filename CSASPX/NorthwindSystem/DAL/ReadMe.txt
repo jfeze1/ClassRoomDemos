@@ -1,1 +1,1 @@
-﻿This folder will hold the database context class to be used by entity framework
+﻿This folder will hold the database context class to be used by Entity Framework

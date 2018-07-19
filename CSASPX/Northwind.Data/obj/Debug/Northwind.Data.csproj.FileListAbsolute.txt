@@ -1,6 +1,6 @@
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\Northwind.Data\bin\Debug\Northwind.Data.dll
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\Northwind.Data\bin\Debug\Northwind.Data.pdb
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\Northwind.Data\obj\Debug\Northwind.Data.csprojAssemblyReference.cache
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\Northwind.Data\obj\Debug\Northwind.Data.csproj.CoreCompileInputs.cache
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\Northwind.Data\obj\Debug\Northwind.Data.dll
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSASPX\Northwind.Data\obj\Debug\Northwind.Data.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\bin\Debug\Northwind.Data.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\bin\Debug\Northwind.Data.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\obj\Debug\Northwind.Data.csproj.CoreCompileInputs.cache
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\obj\Debug\Northwind.Data.dll
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\obj\Debug\Northwind.Data.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\obj\Debug\Northwind.Data.csprojAssemblyReference.cache
