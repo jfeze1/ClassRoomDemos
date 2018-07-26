@@ -1,5 +1,3 @@
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
-C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\bin\ApplicationInsights.config
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\bin\WebApp.dll.config
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\bin\WebApp.dll
@@ -42,6 +40,8 @@ C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\bin\Microsoft.AI.De
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\bin\Microsoft.AI.Web.xml
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\obj\Debug\WebApp.csproj.CopyComplete
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\obj\Debug\WebApp.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\WebApp\obj\Debug\WebApp.pdb
