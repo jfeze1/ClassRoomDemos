@@ -83,14 +83,6 @@ namespace WebApp.SamplePages
 
         protected void Page_PreRender(object sender, EventArgs e)
         {
-            // enable/disable the Clear Search Filters
-            //bool searchFilterInUse = SearchCourseList.SelectedIndex > 0 || !string.IsNullOrWhiteSpace(SearchCourseName.Text);
-            //ClearFilters.Enabled = searchFilterInUse;
-            //ClearFilters.CssClass = ClearFilters.Enabled ? "" : "disabled";
-
-            //// Adjust the legend label
-            //EditAddLabel.Text = string.IsNullOrEmpty(OfferingID.Text) ? "Adding New Offering" : "Editing Existing Offering";
-
             //
             if (Request["EditSupplierIDState"] == "true")
                 EditSupplierID.Attributes.Add("open", string.Empty);

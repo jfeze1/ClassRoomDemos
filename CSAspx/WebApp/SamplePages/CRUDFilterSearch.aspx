@@ -54,6 +54,8 @@
                 text="Name:"></asp:Label>
             <asp:TextBox ID="ProductName" runat="server"></asp:TextBox>
            
+            <%-- example of a collapsable filter search
+                 this example uses code localled in the Page_PreRender event--%>
              <asp:Label ID="Label4" runat="server" Text="Supplier"
                     AssociatedControlID="SupplierID"></asp:Label>
             <details id="EditSupplierID" runat="server" class="bs-grid" ontoggle="preserveToggle(this, 'EditSupplierIDState')">

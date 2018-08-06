@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Pkey Query" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Query.aspx.cs" Inherits="WebApp.SamplePages.Query" %>
+﻿<%@ Page Title="CRUD" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CRUD.aspx.cs" Inherits="WebApp.SamplePages.CRUD" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <h1> Primary Query</h1>
+    <h1> CRUD</h1>
      <div class="row">
         <div class="col-sm-offset-1 col-sm-10 alert alert-info">
             <blockquote style="font-style:italic">

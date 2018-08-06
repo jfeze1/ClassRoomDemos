@@ -19,7 +19,7 @@ using System.Data.Entity.Core;
 
 namespace WebApp.SamplePages
 {
-    public partial class Query : System.Web.UI.Page
+    public partial class CRUD : System.Web.UI.Page
     {
         List<string> errormsgs = new List<string>();
 

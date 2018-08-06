@@ -121,11 +121,10 @@ namespace WebApp.SamplePages
 
         protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
         {
-            //This method switeches the user between views on the form
-            //The value associeted with the MenuItem is treated as an index
+            //this method switches the user between views on the form
+            //the value associated with the MenuItem is treated as an index
             int index = Int32.Parse(e.Item.Value);
-
-            //ActiveViewIndex determines which view is display
+            //ActiveViewIndex determines which view is displayed
             MultiView1.ActiveViewIndex = index;
         }
 

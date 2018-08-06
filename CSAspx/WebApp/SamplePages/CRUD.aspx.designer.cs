@@ -10,7 +10,7 @@
 namespace WebApp.SamplePages {
     
     
-    public partial class Query {
+    public partial class CRUD {
         
         /// <summary>
         /// Message control.

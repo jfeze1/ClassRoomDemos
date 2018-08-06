@@ -1,3 +1,17 @@
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\bin\Debug\NorthwindSystem.dll.config
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\bin\Debug\NorthwindSystem.dll
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\bin\Debug\NorthwindSystem.pdb
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\bin\Debug\EntityFramework.dll
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\bin\Debug\Northwind.Data.dll
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\bin\Debug\Northwind.Data.pdb
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\bin\Debug\EntityFramework.xml
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\obj\Debug\NorthwindSystem.csprojAssemblyReference.cache
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\obj\Debug\NorthwindSystem.csproj.CoreCompileInputs.cache
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\obj\Debug\NorthwindSystem.csproj.CopyComplete
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\obj\Debug\NorthwindSystem.dll
+C:\Users\jraou\Desktop\ClassroomDemos-master\ClassroomDemos-master\CSAspx\NorthwindSystem\obj\Debug\NorthwindSystem.pdb
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\NorthwindSystem\bin\Debug\NorthwindSystem.dll.config
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\NorthwindSystem\bin\Debug\NorthwindSystem.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\NorthwindSystem\bin\Debug\NorthwindSystem.pdb
