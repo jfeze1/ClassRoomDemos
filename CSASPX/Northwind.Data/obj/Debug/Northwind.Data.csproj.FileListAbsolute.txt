@@ -9,3 +9,4 @@ C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\bin\Debug\N
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\obj\Debug\Northwind.Data.csproj.CoreCompileInputs.cache
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\obj\Debug\Northwind.Data.dll
 C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\obj\Debug\Northwind.Data.pdb
+C:\Users\jraou\Documents\GitHub\ClassRoomDemos\CSAspx\Northwind.Data\obj\Debug\Northwind.Data.csprojAssemblyReference.cache
